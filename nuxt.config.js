@@ -39,6 +39,6 @@ module.exports = {
     }
   },
   env: {
-    apiPrismicUrl: process.env.'https://marinaaisa-prismic.prismic.io/api/v2' || 'http://localhost:3000'
+    apiPrismicUrl: process.env.API_PRISMIC_URL || 'http://localhost:3000'
   }
 }
